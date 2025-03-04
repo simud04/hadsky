@@ -1,4 +1,32 @@
-package com.cloudstream.plugins
+package com.github.simud04.providers
+
+import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
+import com.lagradost.cloudstream3.plugins.Plugin
+import android.content.Context
+
+class SkyStreamingProvider : MainAPI() {
+    override var mainUrl = "https://skystreaming.media"
+    override var name = "SkyStreaming"
+    override val hasMainPage = true
+    override val supportedTypes = setOf(TvType.Live)
+
+    override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
+        val document = app.get(mainUrl).document
+        val categories = document.select(".sport-list a")
+
+        val homePageList = categories.map {
+            val name = it.text()
+            val link = it.attr("href")
+            HomePageList(name, getEvents(link))
+        }
+        return HomePageResponse(homePageList)
+    }
+
+    private fun getEvents(url: String): List<SearchResponse> {
+        val document = app.get(url).document
+        return document.select(".event-item").mapNotNull {
+        
+
 
 import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
 import com.lagradost.cloudstream3.plugins.Plugin
