@@ -20,6 +20,4 @@ cloudstream {
         "Live",
     )
 
-    requiresResources = false
-
     iconUrl = "https://www.calciostreaming.cool/templates/calciostreaming1/images/icons/apple-touch-icon.png"
