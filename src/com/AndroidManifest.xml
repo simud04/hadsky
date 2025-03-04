@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.simud04.hadEnough">
+
+    <application
+        android:name=".App"
+        android:icon="@mipmap/ic_launcher"
+        android:label="HadEnough"
+        android:theme="@style/Theme.AppCompat.Light">
+
+        <!-- Aggiungi attività o servizi necessari -->
+        
+    </application>
+
+</manifest>
