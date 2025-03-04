@@ -1,9 +1,8 @@
-// use an integer for version numbers
-version = 1
+version = 3
 
 
 cloudstream {
-    // All of these properties are optional, you can safely remove them
+    language = "it"
 
     description = "Stuff"
     authors = listOf("simud04")
@@ -17,9 +16,10 @@ cloudstream {
     * */
     status = 1
 
-    tvTypes = listOf("Live",)
+   tvTypes = listOf(
+        "Live",
+    )
 
     requiresResources = false
-    language = "it"
 
     iconUrl = "https://www.calciostreaming.cool/templates/calciostreaming1/images/icons/apple-touch-icon.png"
