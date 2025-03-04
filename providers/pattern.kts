@@ -17,9 +17,9 @@ cloudstream {
     * */
     status = 1
 
-    tvTypes = listOf("Movie", "TvSeries")
+    tvTypes = listOf("Live",)
 
     requiresResources = false
     language = "it"
 
-    iconUrl = "https://github.githubassets.com/favicons/favicon-dark.svg"
+    iconUrl = "https://www.calciostreaming.cool/templates/calciostreaming1/images/icons/apple-touch-icon.png"
