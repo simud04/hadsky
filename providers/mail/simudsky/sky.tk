@@ -1,4 +1,4 @@
-package com.github.simud04.providers
+package com.github.simud04.providers.mail.simudsky
 
 import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
 import com.lagradost.cloudstream3.plugins.Plugin
