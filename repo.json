@@ -3,6 +3,6 @@
   "description": "test",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/simud04/hadsky/refs/heads/main/providers/mail/simudsky/sky.tk"
+    "https://raw.githubusercontent.com/simud04/hadsky/refs/heads/main/providers/mail/simudsky/sky.kt"
   ]
 }
