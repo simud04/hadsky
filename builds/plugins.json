@@ -1,6 +1,6 @@
 [
   {
     "name": "SkyStreaming",
-    "url": "https://raw.githubusercontent.com/simud04/hadsky/main/src/com/lagradost/cloudstream3/plugins/simudsky/SkyStreaming.kt"
+    "url": "https://raw.githubusercontent.com/simud04/hadsky/refs/heads/main/src/com/lagradost/cloudstream3/plugins/simudsky/SkyStreamingProvider.kt"
   }
 ]
