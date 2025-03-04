@@ -3,6 +3,6 @@
   "description": "test",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/simud04/hadsky/refs/heads/main/providers/mail/simudsky/sky.kt"
+    "https://raw.githubusercontent.com/simud04/hadsky/refs/heads/main/src/com/lagradost/cloudstream3/plugins/SkyStreamingProviderPlugin.kt"
   ]
 }
