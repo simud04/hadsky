@@ -3,8 +3,8 @@
   "pluginLists": [
     {
       "name": "SkyStreamingProvider",
-      "url": "https://raw.githubusercontent.com/simud04/hadsky/refs/heads/main/sky.kt",
-      "version": "1.0",
+      "url": "https://raw.githubusercontent.com/simud04/hadsky/refs/heads/main/providers/sky.kt",
+      "version": "1.1",
       "languages": ["it"],
       "tvTypes": ["Live"]
     }
