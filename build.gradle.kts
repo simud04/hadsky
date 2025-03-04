@@ -16,8 +16,3 @@ dependencies {
     implementation "com.lagradost.cloudstream3:cloudstream3:VERSION" // Versione di Cloudstream, sostituisci con la versione che stai utilizzando
     // Aggiungi altre dipendenze se necessario
 }
-
-
-task<Delete>("clean") {
-    delete(rootProject.buildDir)
-}
