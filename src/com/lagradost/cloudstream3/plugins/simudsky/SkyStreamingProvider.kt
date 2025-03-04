@@ -1,4 +1,4 @@
-package com.github.simud04.src.com.lagradost.cloudstream3.plugins
+package com.github.simud04.src.com.lagradost.cloudstream3.plugins.simudsky
 
 import com.lagradost.cloudstream3.*
 import com.lagradost.cloudstream3.network.CloudflareKiller
