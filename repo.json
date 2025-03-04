@@ -1,8 +1,8 @@
 {
-  "name": "simud",
-  "description": "test",
+  "name": "HadSky Plugins",
+  "description": "Una raccolta di plugin per Cloudstream, tra cui SkyStreaming e altri",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/simud04/hadsky/refs/heads/main/src/com/lagradost/cloudstream3/plugins/SkyStreamingProviderPlugin.kt"
+    "https://raw.githubusercontent.com/simud04/hadsky/main/builds/plugins.json"
   ]
 }
